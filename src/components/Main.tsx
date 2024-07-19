@@ -9,7 +9,7 @@ export const Main = () => {
       const callDistort = function () {
          const newPos = window.scrollY;
          const diff = newPos - currentPos;
-         const speed = diff * 0.18;
+         const speed = diff * -0.18;
 
          // @ts-ignore
          content.style.transform = `skewY(${speed}deg)`;

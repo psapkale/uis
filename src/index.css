@@ -80,3 +80,110 @@ body {
 .projectContainer {
    margin-bottom: 80px;
 }
+
+@media (max-width: 1200px) {
+   .mainTitle {
+      font-size: 80px;
+      margin: 150px 0 230px 0;
+   }
+
+   .content {
+      width: 80%;
+   }
+
+   .projectTitle {
+      font-size: 40px;
+   }
+
+   .projectDesc {
+      font-size: 14px;
+      line-height: 28px;
+   }
+
+   .projectImg {
+      height: 500px;
+   }
+
+   .projectContainer {
+      margin-bottom: 60px;
+   }
+}
+
+@media (max-width: 992px) {
+   .mainTitle {
+      font-size: 70px;
+      margin: 120px 0 180px 0;
+   }
+
+   .content {
+      width: 85%;
+   }
+
+   .projectTitle {
+      font-size: 36px;
+   }
+
+   .projectDesc {
+      font-size: 14px;
+      line-height: 26px;
+   }
+
+   .projectImg {
+      height: 450px;
+   }
+
+   .projectContainer {
+      margin-bottom: 50px;
+   }
+}
+
+@media (max-width: 768px) {
+   .mainTitle {
+      font-size: 60px;
+      margin: 120px 0 120px 0;
+   }
+
+   .content {
+      width: 90%;
+   }
+
+   .projectTitle {
+      font-size: 32px;
+   }
+
+   .projectDesc {
+      font-size: 12px;
+      line-height: 24px;
+   }
+
+   .projectImg {
+      height: 400px;
+   }
+
+   .projectContainer {
+      margin-bottom: 40px;
+   }
+}
+
+@media (max-width: 576px) {
+   .content {
+      width: 95%;
+   }
+
+   .projectTitle {
+      font-size: 28px;
+   }
+
+   .projectDesc {
+      font-size: 12px;
+      line-height: 22px;
+   }
+
+   .projectImg {
+      height: 350px;
+   }
+
+   .projectContainer {
+      margin-bottom: 30px;
+   }
+}
