@@ -59,10 +59,36 @@ body {
    will-change: transform;
 }
 
+.projectTitleContainer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
 .projectTitle {
    font-size: 48px;
    font-weight: lighter;
    margin-bottom: 10px;
+}
+
+.projectButtonContainer {
+   width: 20%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.projectButtonContainer a {
+   width: 48%;
+   text-decoration: none;
+   text-align: center;
+   font-size: 16px;
+   color: white;
+   padding: 10px;
+   background: transparent;
+   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+   border: transparent;
+   transition: border 150ms;
+   cursor: pointer;
 }
 
 .projectDesc {
@@ -123,6 +149,14 @@ body {
       font-size: 36px;
    }
 
+   .projectButtonContainer {
+      width: 30%;
+   }
+
+   .projectButtonContainer a {
+      font-size: 14px;
+   }
+
    .projectDesc {
       font-size: 14px;
       line-height: 26px;
@@ -151,6 +185,14 @@ body {
       font-size: 32px;
    }
 
+   .projectButtonContainer {
+      width: 30%;
+   }
+
+   .projectButtonContainer a {
+      font-size: 14px;
+   }
+
    .projectDesc {
       font-size: 12px;
       line-height: 24px;
@@ -172,6 +214,14 @@ body {
 
    .projectTitle {
       font-size: 28px;
+   }
+
+   .projectButtonContainer {
+      width: 40%;
+   }
+
+   .projectButtonContainer a {
+      font-size: 12px;
    }
 
    .projectDesc {

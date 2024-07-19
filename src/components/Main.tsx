@@ -39,7 +39,17 @@ export const Main = () => {
                         alt={project.title}
                         className="projectImg"
                      />
-                     <h1 className="projectTitle">{project.title}</h1>
+                     <div className="projectTitleContainer">
+                        <h1 className="projectTitle">{project.title}</h1>
+                        <div className="projectButtonContainer">
+                           <a href={project.codeRef} target="_blank">
+                              Code
+                           </a>
+                           <a href={project.liveRef} target="_blank">
+                              Live
+                           </a>
+                        </div>
+                     </div>
                      <p className="projectDesc">{project.description}</p>
                   </div>
                ))}
